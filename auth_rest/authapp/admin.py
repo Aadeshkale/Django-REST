@@ -1,3 +1,4 @@
 from django.contrib import admin
+from authapp.models import Emp
 
-# Register your models here.
+admin.site.register(Emp)
