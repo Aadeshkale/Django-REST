@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from authapp.models import  Emp
+from authapp.models import Emp
 
 
 class EmpSerializer(serializers.ModelSerializer):
